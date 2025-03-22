@@ -49,6 +49,11 @@ main {
 
 .content {
     margin: 2rem 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.content--visible {
+    opacity: 1 !important;
 }
 
 h1 {
